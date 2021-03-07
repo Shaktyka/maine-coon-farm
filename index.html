@@ -55,6 +55,65 @@
     <section class="pets">
       <div class="container">
         <h2 class="pets__title">Питомцы</h2>
+        <p class="pets__descr">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</p>
+        <div class="pets__tabs tabs">
+          <ul class="tabs__list">
+            <li class="tabs__item tab active" id="he-cats">
+              <a class="tab__link" href="#">Коты</a>
+            </li>
+            <li class="tabs__item tab" id="she-cats">
+              <a class="tab__link" href="#">Кошки</a>
+            </li>
+            <li class="tabs__item tab" id="kittens">
+              <a class="tab__link" href="#">Котята</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pets__content">
+          <!-- Слайдер для вкладки Коты -->
+          <div class="pets__photos show" id="photos-he-cats">
+            <!-- Слайдер -->
+            <div class="slider pets__slider">
+              <a class="slider__control slider__control--prev" href="#">
+                <span class="v-hidden">Предыдущий</span>
+              </a>
+              <ul class="pets__list slider__list">
+                <li class="pets__item pet slide active">
+                  <div class="pet__img-wrap img-wrap">
+                    <img class="pet__img" src="img/" alt="Фото Мейн-Куна 1">
+                  </div>
+                </li>
+                <li class="pets__item pet slide">
+                  <div class="pet__img-wrap img-wrap">
+                    <img class="pet__img" src="img/" alt="Фото Мейн-Куна 2">
+                  </div>
+                </li>
+                <li class="pets__item pet slide">
+                  <div class="pet__img-wrap img-wrap">
+                    <img class="pet__img" src="img/" alt="Фото Мейн-Куна 3">
+                  </div>
+                </li>
+              </ul>
+              <a class="slider__control slider__control--next" href="#">
+                <span class="v-hidden">Следующий</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Слайдер для вкладки Кошки -->
+        <div class="pets__photos" id="photos-she-cats">
+          <div class="slider pets__slider">
+          </div>
+        </div>
+        <!-- Слайдер для вкладки Котята -->
+        <div class="pets__photos" id="photos-kittens">
+          <div class="slider pets__slider">
+          </div>
+        </div>
+        <!-- Ссылка -->
+        <div class="pets__link-wrap">
+          <a class="btn btn--link pets__link" href="#">Смотреть больше</a>
+        </div>
       </div>
     </section>
     <!-- Особенности породы -->
@@ -195,6 +254,7 @@
     <section class="reviews">
       <div class="container">
         <h2 class="reviews__title">Отзывы</h2>
+        <!-- Слайдер -->
         <div class="slider">
           <a class="slider__control slider__control--prev" href="#">
             <span class="v-hidden">Предыдущий</span>
