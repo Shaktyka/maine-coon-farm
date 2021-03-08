@@ -70,10 +70,26 @@ a {
 }
 
 .module__title {
+  margin: 0;
   font-family: "Yeseva One", cursive;
   font-size: 28px;
   font-weight: 400;
   line-height: initial;
+  text-align: center;
+}
+
+.module__subtl {
+  margin: 0;
+  font-weight: 300;
+  text-align: center;
+  line-height: 140%;
+  color: #A07B50;
+}
+
+.module__link-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .btn {
@@ -88,7 +104,7 @@ a {
   line-height: 100%;
 }
 
-.btn__link {
+.btn--link {
   padding: 15px 18px 16px;
   font-weight: 500;
   font-size: 12px;
@@ -121,9 +137,7 @@ a {
 }
 
 .promo__title {
-  margin: 0;
   margin-bottom: 30px;
-  text-align: center;
   font-size: 36px;
 }
 
@@ -140,9 +154,6 @@ a {
 }
 
 .promo__link-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   margin-bottom: 20px;
 }
 
@@ -159,25 +170,79 @@ a {
 
 /* Питомцы */
 .pets {
+  padding-top: 60px;
+}
 
+.pets .container {
+  /*padding: 0;*/
+}
+
+.pets__title {
+  margin-bottom: 35px;
+}
+
+.pets__descr {
+  margin-bottom: 40px;
+}
+
+.tabs__list {
+  max-width: 241px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.tab__link {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.active .tab__link {
+  opacity: 1;
+}
+
+.slider__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pet__img-wrap {
+  width: 234px;
+  height: 248px;
+  outline: 1px solid darkgray;
+}
+
+.pets__link-wrap {
+  margin-top: 45px;
 }
 
 /* Особенности породы */
 .breed {
-
+  padding-top: 60px;
 }
 
 /* б уходе за мейн-куном */
-.articles {
-
-}
+.articles {}
 
 /* Вопросы и ответы */
-.questions {
-
-}
+.questions {}
 
 /* Отзывы */
-.reviews {
-
-}
+.reviews {}
