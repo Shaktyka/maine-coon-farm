@@ -1,0 +1,85 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181617;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-wrap {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.v-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  /*outline: 1px solid #066;*/
+}
+
+.module--light {
+  background-color: #1F1C1D;
+}
+
+/* Питомцы */
+.pets {
+
+}
+
+/* Особенности породы */
+.breed {
+
+}
+
+/* б уходе за мейн-куном */
+.articles {
+
+}
+
+/* Вопросы и ответы */
+.questions {
+
+}
+
+/* Отзывы */
+.reviews {
+
+}
